@@ -1,0 +1,18 @@
+[configuration]
+
+entry_symbol = "raytraced_audio_library_init"
+compatibility_minimum = "4.1"
+
+[libraries]
+
+# Linux mappings
+linux.release.x86_64 = "res://addons/raytraced_audio/bin/libraytraced-audio.linux.template_release.x86_64.so"
+linux.debug.x86_64 = "res://addons/raytraced_audio/bin/libraytraced-audio.linux.template_debug.x86_64.so"
+
+# Windows mappings
+windows.release.x86_64 = "res://addons/raytraced_audio/bin/libraytraced-audio.windows.template_release.x86_64.dll"
+# windows.debug.x86_64 = "res://addons/raytraced_audio/bin/libraytraced-audio.windows.template_debug.x86_64.dll"
+
+# macOS mappings
+macos.release.x86_64 = "res://addons/raytraced_audio/bin/libraytraced-audio.macos.template_release.x86_64.dylib"
+macos.release.arm64 = "res://addons/raytraced_audio/bin/libraytraced-audio.macos.template_release.arm64.dylib"
